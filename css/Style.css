@@ -1,13 +1,28 @@
 * {
-  font-family: "Courier New", Courier, monospace;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 body {
-  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+  background-color: papayawhip;
+  font-size: 1.5rem;
+  min-height: 200vh;
 }
 
-h1 {
+a:visited {
+  color: purple;
+}
+a:hover {
   color: blue;
 }
-p {
-  color: black;
+table,
+tr,
+th,
+caption {
+  border: 2px solid #333;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: 0.5px;
 }
